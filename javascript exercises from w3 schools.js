@@ -56,4 +56,76 @@ const x = {
   lastName: "Doe"
 };                        //object
 
+////////////////////////////////////////////
+
+function myFunction() {
+    alert("Hello World!");
+  }
+  myFunction();
+
+////////////////////////////////////////////
+
+
+function myFunction() {
+  alert("Hello World!");
+}
+
+////////////////////////////////////////////
+
+function myFunction() {
+  return "Hello";
+    }
+    document.getElementById("demo").innerHTML = myFunction();
+
+////////////////////////////////////////////
+
+const person = {
+    firstName: "John",
+    lastName: "Doe"
+  };
+  
+  alert(person.firstName );
+
+////////////////////////////////////////////
+
+const person = {
+    firstName: "John",
+    lastName: "Doe",
+    country : "Norway"
+    };
+
+////////////////////////////////////////////
+
+const person = {
+    name: "John", 
+    age: 50
+};
+alert(person.name + " is " + person.age);
+
+////////////////////////////////////////////
+
+let txt = "Hello World!";
+let x = txt.length;
+alert(x);
+
+////////////////////////////////////////////
+
+let str1 = "Hello ";
+let str2 = "World!";
+alert(str1+str2);
+
+////////////////////////////////////////////
+
+let txt = "Hello World!";
+txt = txt.toUpperCase();
+
+////////////////////////////////////////////
+
+let txt = "Hello World";
+txt = txt.replace ("Hello", "Welcome");
+
+////////////////////////////////////////////
+
+let txt = "Hello World";
+txt = txt.toLowerCase();
 
