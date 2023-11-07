@@ -187,7 +187,22 @@ month = d.getMonth();
 
 //Use the correct Date method to set the year of a date object to 2020.//
 
+////////////////////////////////////////////
+//JS FOR LOOPS//
 
+//Create a loop that runs from 0 to 9.//
+let i;
+for (i= 0; i< 10; i++) {
+  console.log(i);
+}
 
+//Create a loop that runs through each item in the fruits array.//
+const fruits = ["Apple", "Banana", "Orange"];
+for (x of fruits) {
+  console.log(x);
+}
+
+////////////////////////////////////////////
+//JS WHILE LOOPS//
 
 
