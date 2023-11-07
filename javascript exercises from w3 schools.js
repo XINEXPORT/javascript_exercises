@@ -1,20 +1,18 @@
 ////////////////////////////////////////////
+//JS VARIABLES//
 
 let carName = "Volvo";
 console.log(carName);
 
-////////////////////////////////////////////
 
 let x = 50
 console.log(x);
 
-////////////////////////////////////////////
 
 let b = 5;
 let c = 10;
 document.getElementById("demo").innerHTML = b + c;
 
-////////////////////////////////////////////
 
 let a = 5;
 let y = 10;
@@ -22,12 +20,11 @@ let z = a + y;
 alert(z);
 console.log(z);
 
-////////////////////////////////////////////
-
 let firstName = "John", lastName = "Doe", age = 35;
 console.log(firstName);
 
 ////////////////////////////////////////////
+//JS OPERATORS//
 
 alert(10 * 5);
 
@@ -35,14 +32,12 @@ alert(10 / 2);
 
 alert(15 % 9);
 
-////////////////////////////////////////////
 //choose the correct operator
 
 x = 10;
 y = 5;
 x += y;
 
-////////////////////////////////////////////
 //choose the correct operator
 
 x = 10;
@@ -50,6 +45,7 @@ y = 5;
 x *= y;
 
 ////////////////////////////////////////////
+//JS DATA TYPES//
 
 let length = 16;          // number
 let lastName = "Johnson"; //string
@@ -189,6 +185,7 @@ year = d.getFullYear();
 const d = new Date();
 month = d.getMonth();
 
+//Use the correct Date method to set the year of a date object to 2020.//
 
 
 
